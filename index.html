@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Landing Page com Html e Css</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="./Images/logo.svg" alt="Tom's Jazz" />
+        <nav class="mt-1">
+          <a href="#">Início</a>
+          <a href="#">Cursos</a>
+          <a href="#">Eventos</a>
+          <a href="#">Contato</a>
+        </nav>
+        <button class="btn mt-1 mb-1 mx-auto">Se Inscreva</button>
+      </div>
+    </header>
+    <main>
+      <section class="primarySection">
+        <div class="container row-reverse">
+          <img src="./Images/hero-img.svg" alt="" />
+          <div>
+            <h1 class="mt-2">
+              Crie algo
+              <span class="text-primary decoration">impactante</span> com música
+            </h1>
+            <p class="mt-2 mb-2">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
+              omnis debitis qui quidem at voluptatem quia delectus vel!
+            </p>
+            <button class="btn">COMECE AGORA</button>
+          </div>
+        </div>
+      </section>
+      <section class="secundarySection">
+        <div class="cards">
+          <article class="card mt-1">
+            <img src="./Images/piano.png" alt="Teclas de piano" />
+            <strong>Piano Popular</strong>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+              laboriosam!
+            </p>
+            <img src="./Images/arrow-right.svg" alt="" />
+          </article>
+          <article class="card mt-1">
+            <img src="./Images/clef.png" alt="Teoria musical" />
+            <strong>Teoria Musical</strong>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+              laboriosam!
+            </p>
+            <img src="./Images/arrow-right.svg" alt="" />
+          </article>
+          <article class="card mt-1">
+            <img src="./Images/sax.png" alt="Sax alto" />
+            <strong>Sax Alto</strong>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+              laboriosam!
+            </p>
+            <img src="./Images/arrow-right.svg" alt="" />
+          </article>
+          <article class="card mt-1">
+            <img src="./Images/drums.png" alt="Bateria" />
+            <strong>Bateria</strong>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+              laboriosam!
+            </p>
+            <img src="./Images/arrow-right.svg" alt="" />
+          </article>
+        </div>
+        <h2 class="text-center mt-2">
+          E <span class="text-primary">vários</span> outros!
+        </h2>
+        <button class="btn mt-2 mx-auto">CONHECER CURSOS</button>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="about-column">
+          <img src="./Images/logo.svg" alt="Logo footer" class="mt-1 mb-2" />
+          <p class="mb-2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            numquam quis ratione sed molestiae?
+          </p>
+        </div>
+        <nav class="mb-2">
+          <a href="#">Início</a>
+          <a href="#">Cursos</a>
+          <a href="#">Eventos</a>
+          <a href="#">Contato</a>
+        </nav>
+        <form class="newletter">
+          <label for="e-mail" class="mb-1"
+            >Receba mensagens gratuitas no seu e-mail:</label
+          >
+          <input
+            type="text"
+            name="e-mail"
+            id="e-mail"
+            placeholder="Digite seu E-mail"
+          />
+          <button class="btn mt-1 mb-2">QUERO RECEBER</button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
